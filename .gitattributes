@@ -1,2 +1,5 @@
-# Set the default behavior:  always convert line endings to LF on checkout
-* text eol=lf
+# Set the default behavior:  
+* text auto
+
+# Declare files that will always have CRLF line endings on checkout.
+*.yaml text eol=lf
