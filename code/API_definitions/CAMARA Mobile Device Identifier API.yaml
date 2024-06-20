@@ -8,14 +8,12 @@ info:
      - A unique network identifier for the specific device itself (IMEI SV and IMEI)
      - A network identifier for the device make and model (IMEI Type Allocation Code)
      - Device manufacturer name and model
-
      This information can be useful in a number of scenarios, such as the following:
      - For insurance purposes, to automatically identify a device that a customer wishes to insure
      - For security / fraud reasons, to establish that a customer is not using a device they claim to have broken or lost
      - For service delivery reasons, to optimise content for a particular device or OS type
 
     # Introduction
-
     Mobile devices are allocated a unique identity by the manufacturer, known as the International Mobile Equipment Identity, or IMEI. The current software version (SV) of the device can be appended to this, in which case the identifier is known as the IMEI SV. This identity is signalled to the mobile network when the device connects, both to confirm that the device is not blocked, and also allow device dependent network configurations to be implemented.
 
     The IMEI is a 15 digit integer, and the IMEI SV is a 16 digit integer:
